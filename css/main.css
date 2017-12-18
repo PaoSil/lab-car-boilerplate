@@ -1,1 +1,112 @@
 /* Los estilos de tu proyecto */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/******** Estilos a navbar ********/
+.nav-bar {
+  background-color: #fff;
+  height: 20vh;
+}
+
+/*Estilo a menu-icon*/
+.nav-wrapper .button-collapse {
+  margin: 0.5rem 0;
+}
+.button-collapse {
+  color: #a5a5a5;
+  border: 1px solid #dddddd;
+  border-radius: 0.5rem;
+  padding: 0 0.5em;
+}
+#bar-menu {
+  font-size: 3rem;
+}
+/*estilos al logo "lab-car"*/
+#logo-lab {
+  height: 2rem;
+  position: relative;
+  top: 1rem;
+  left: 30%;
+  width: 9rem;
+}
+/******** Estilos a section-registro ********/
+/*Background logo-taxi*/
+.bg-taxi {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 75vh;
+}
+/*Estilos tarjeta-dowloadApp*/
+.start-download {
+  background-color:#ffc107;
+  color: #fff;
+  float: right;
+  height: 31vh;
+  position: relative;
+  top: 21vh;
+  width: 85vw;
+}
+/*text-center*/
+.text-left {
+  margin: 3rem;
+}
+.btn-download{
+  background-color:#fff;
+  border-radius: 0.3rem;
+  color: #000;
+  font-weight: bold;
+}
+/*logo white*/
+.logo-white {
+  height: 1rem;
+  margin-left: 1rem;
+  width: 4rem;
+}
+/******************Estilos a download app********************/
+.bg-yellow {
+    background-color:#ffc107;
+    color: #fff;
+    height: 80vh;
+}
+/*estilos a border-white*/
+.border-white {
+  border: 0.1rem solid #fff;
+  position: relative;
+  top: 6vh;
+}
+.text-center {
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 2vh;
+  padding-top: 6vh;
+  padding-left: 30vw;
+}
+.logo-phone {
+  height: 45vh;
+  margin-left: 15vw;
+  margin-bottom: 5vh;
+  width: 60vw;
+  /*outline: 1px solid blue;*/
+}
+.text-down {
+  margin-left: 3vw;
+  margin-top: 12vh;
+}
+/**********************Estilos section taxi-drive*********************************/
+.bg-conduce {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50vh;
+  opacity: 0.85;
+}
+.taxi.drive {
+}
